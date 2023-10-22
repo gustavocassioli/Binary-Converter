@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    width: calc(100% - 10px);
+}
+
+button {
+    cursor: pointer;
+}
+
+#resultado, #resultadoDecimal, #resultadoBinario {
+    font-size: 20px;
+    margin-top: 20px;
+    color:white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+}
+
+.gif-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('133C.gif');
+    background-size: cover;
+    pointer-events: none;
+}
+
+.main{
+  color: white;
+}

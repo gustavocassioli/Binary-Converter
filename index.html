@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binário para ASCII</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="gif-background"></div>
+    <h1 class="main">Conversor Binário para ASCII (American Standard Code for Information Interchange)</h1>
+    <div class="container">
+        <label for="binario" class="main">Digite o número binário:</label>
+        <input type="text" id="binario">
+        <button onclick="converter()">Converter</button>
+        <div id="resultado"></div>
+    </div>
+
+<div class="container">
+    <label for="decimal" class="main">Digite o número decimal:</label>
+    <input type="text" id="decimal">
+    <button onclick="converterParaDecimal()">Converter para Binário</button>
+    <div id="resultadoDecimal"></div>
+</div>
+
+<div class="container">
+    <label for="texto" class="main">Digite o texto:</label>
+    <input type="text" id="texto">
+    <button onclick="converterParaBinario()">Converter para Binário</button>
+    <div id="resultadoBinario"></div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
